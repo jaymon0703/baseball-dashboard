@@ -5,6 +5,7 @@ A comprehensive, interactive dashboard for visualizing baseball statistics using
 ![Baseball Dashboard](https://img.shields.io/badge/Baseball-Stats%20Dashboard-blue?style=for-the-badge&logo=baseball)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red?style=for-the-badge&logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ## 🚀 Features
 
@@ -12,7 +13,7 @@ A comprehensive, interactive dashboard for visualizing baseball statistics using
 - **Player Search**: Find any MLB player by name
 - **Comprehensive Stats**: View detailed batting statistics including HR, RBI, AVG, OPS
 - **Interactive Visualizations**: Performance charts and metrics
-- **Historical Data**: View stats from 2020-2024
+- **Historical Data**: View stats from 2020-2025 (including current season!)
 
 ### 🏟️ Team Statistics
 - **Team Comparisons**: Compare multiple teams side-by-side
@@ -40,9 +41,9 @@ A comprehensive, interactive dashboard for visualizing baseball statistics using
 
 ### Quick Start (Recommended)
 
-1. **Clone or download this repository**
+1. **Clone this repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/YOUR_USERNAME/baseball-dashboard.git
    cd baseball-dashboard
    ```
 
@@ -95,7 +96,7 @@ A comprehensive, interactive dashboard for visualizing baseball statistics using
 1. **Launch the app** using `./run_dashboard.sh` or `streamlit run app.py`
 2. **Navigate** using the sidebar menu
 3. **Search for players** using their full name (e.g., "Aaron Judge")
-4. **Select years** to view historical data (2020-2024)
+4. **Select years** to view historical data (2020-2025)
 5. **Explore** interactive charts and visualizations
 
 ### Player Search Tips
@@ -190,6 +191,7 @@ baseball-dashboard/
 ├── requirements.txt       # Python dependencies
 ├── run_dashboard.sh      # Startup script
 ├── README.md             # This file
+├── .gitignore            # Git ignore file
 └── .venv/                # Virtual environment (created automatically)
 ```
 
@@ -211,9 +213,16 @@ Contributions are welcome! Here are some ways to help:
 3. **Code Improvements**: Submit pull requests for enhancements
 4. **Documentation**: Help improve this README or add comments
 
+### How to Contribute
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
@@ -226,10 +235,16 @@ This project is open source and available under the MIT License.
 
 If you encounter any issues or have questions:
 1. Check the troubleshooting section above
-2. Review the pybaseball documentation
+2. Review the [pybaseball documentation](https://github.com/jldbc/pybaseball)
 3. Open an issue in the repository
-4. Check Streamlit's documentation for UI-related questions
+4. Check [Streamlit's documentation](https://docs.streamlit.io/) for UI-related questions
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/baseball-dashboard&type=Date)](https://star-history.com/#YOUR_USERNAME/baseball-dashboard&Date)
 
 ---
 
 **Happy Baseball Analytics! ⚾📊**
+
+*Built with ❤️ using Streamlit and pybaseball*
