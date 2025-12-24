@@ -243,23 +243,28 @@ Want to share your dashboard with the world? Deploy it to [shinyapps.io](https:/
    pip install rsconnect-python
    ```
 
-2. **Create a shinyapps.io account** (free tier available)
+2. **Create a shinyapps.io account** (free tier available - 5 apps, 25 hours/month)
 
-3. **Get your deployment token** from shinyapps.io account settings
+3. **Get your deployment token**:
+   - Log in to [shinyapps.io](https://www.shinyapps.io/)
+   - Go to **Account** → **Tokens**
+   - Click **Add Token** and copy the command
 
-4. **Configure rsconnect**:
+4. **Configure rsconnect** (run the command from step 3):
    ```bash
    rsconnect add --account YOUR_ACCOUNT --name NAME --token TOKEN --secret SECRET
    ```
 
 5. **Deploy your app**:
    ```bash
-   rsconnect deploy shiny . --name baseball-dashboard --title "Baseball Stats Dashboard"
+   rsconnect deploy shiny . --name YOUR_NICKNAME --title "Baseball Stats Dashboard"
    ```
 
-6. **Share your app**: `https://YOUR_ACCOUNT.shinyapps.io/baseball-dashboard/`
+6. **Share your app**: Your app will be live at `https://YOUR_ACCOUNT.shinyapps.io/YOUR_APP_NAME/`
 
-For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
+**Live Example**: [https://jasenmackie.shinyapps.io/baseball_stats_dashboard/](https://jasenmackie.shinyapps.io/baseball_stats_dashboard/)
+
+To update your app, just run the deploy command again - it will automatically update your live app!
 
 ---
 

@@ -27,7 +27,16 @@ Thumbs.db
 
 # Shiny/Deployment
 .rsconnect/
+rsconnect-python/
 *.log
+
+# Backup files
+app_backup.py
+*_backup.py
+*.bak
+
+# Old Streamlit config (if switching to Shiny)
+.streamlit/
 
 # Data cache (optional - uncomment if you don't want to commit cached data)
 # _data_cache/
