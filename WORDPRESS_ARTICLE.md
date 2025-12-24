@@ -438,6 +438,8 @@ https://YOUR_ACCOUNT_NAME.shinyapps.io/baseball-dashboard/
 
 **That's it!** Share this URL with anyone. They can use your dashboard without installing anything!
 
+**See it in action**: Check out a live example at [https://jasenmackie.shinyapps.io/baseball_stats_dashboard/](https://jasenmackie.shinyapps.io/baseball_stats_dashboard/)
+
 ### Updating Your App
 
 To update your deployed app with new features, just run the deploy command again:

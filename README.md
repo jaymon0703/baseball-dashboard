@@ -268,6 +268,18 @@ To update your app, just run the deploy command again - it will automatically up
 
 ---
 
+## 💬 Need Help?
+
+If you run into issues setting up the dashboard or have questions:
+
+- **Open an issue** on GitHub - I'm happy to help troubleshoot!
+- **Check the troubleshooting section** in this README
+- **Review the documentation** for [Shiny for Python](https://shiny.posit.co/py/) and [pybaseball](https://github.com/jldbc/pybaseball)
+
+I'm committed to helping others learn, so don't hesitate to reach out if you get stuck!
+
+---
+
 ## 📞 Support
 
 If you encounter any issues or have questions:
