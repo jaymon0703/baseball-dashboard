@@ -1,6 +1,8 @@
 # ⚾ Baseball Stats Dashboard
 
-A comprehensive, interactive dashboard for visualizing baseball statistics using pybaseball and Streamlit.
+A comprehensive, interactive dashboard for visualizing baseball statistics using pybaseball and Shiny for Python.
+
+🔗 **Live Demo**: [https://jasenmackie.shinyapps.io/baseball_stats_dashboard/](https://jasenmackie.shinyapps.io/baseball_stats_dashboard/)
 
 ![Baseball Dashboard](https://img.shields.io/badge/Baseball-Stats%20Dashboard-blue?style=for-the-badge&logo=baseball)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)

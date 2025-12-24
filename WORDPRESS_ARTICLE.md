@@ -482,10 +482,23 @@ Most importantly, you've built something real that you can use and share with th
 
 ## Resources
 
-- **Full Code**: Check out the complete project on [GitHub](https://github.com/YOUR_USERNAME/baseball-dashboard)
+- **Live Demo**: [https://jasenmackie.shinyapps.io/baseball_stats_dashboard/](https://jasenmackie.shinyapps.io/baseball_stats_dashboard/) - See the dashboard in action!
+- **Full Code**: Check out the complete project on [GitHub](https://github.com/jaymon0703/baseball-dashboard)
 - **Shiny for Python Docs**: [shiny.posit.co](https://shiny.posit.co/py/)
 - **pybaseball Documentation**: [GitHub](https://github.com/jldbc/pybaseball)
 - **Baseball Savant**: [baseballsavant.mlb.com](https://baseballsavant.mlb.com/)
+
+---
+
+## Need Help?
+
+If you run into issues or have questions while building your dashboard, I'm here to help! You can:
+
+- Open an issue on the [GitHub repository](https://github.com/jaymon0703/baseball-dashboard)
+- Check the troubleshooting sections in this article
+- Review the official documentation for Shiny and pybaseball
+
+Building something new can be challenging, but don't give up - every programmer started where you are now. I'm committed to helping others learn, so reach out if you get stuck!
 
 ---
 
