@@ -4,7 +4,7 @@ A comprehensive, interactive dashboard for visualizing baseball statistics using
 
 ![Baseball Dashboard](https://img.shields.io/badge/Baseball-Stats%20Dashboard-blue?style=for-the-badge&logo=baseball)
 ![Python](https://img.shields.io/badge/Python-3.8+-green?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red?style=for-the-badge&logo=streamlit)
+![Shiny](https://img.shields.io/badge/Shiny%20for%20Python-1.5+-red?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ## 🚀 Features
@@ -76,24 +76,25 @@ A comprehensive, interactive dashboard for visualizing baseball statistics using
 
 3. **Run the application**
    ```bash
-   streamlit run app.py
+   shiny run app.py
    ```
 
 ## 📦 Dependencies
 
-- **streamlit** (1.28.1): Web application framework
-- **pybaseball** (2.2.7): Baseball data collection and analysis
-- **pandas** (2.1.3): Data manipulation and analysis
-- **plotly** (5.17.0): Interactive visualizations
-- **numpy** (1.24.3): Numerical computing
-- **requests** (2.31.0): HTTP library for data fetching
-- **beautifulsoup4** (4.12.2): Web scraping
-- **lxml** (4.9.3): XML and HTML processing
+- **shiny** (>=0.9.0): Web application framework
+- **shinywidgets** (>=0.1.0): Interactive Plotly chart support
+- **pybaseball** (>=2.2.0): Baseball data collection and analysis
+- **pandas** (>=2.0.0): Data manipulation and analysis
+- **plotly** (>=5.0.0): Interactive visualizations
+- **numpy** (>=1.24.0): Numerical computing
+- **requests** (>=2.30.0): HTTP library for data fetching
+- **beautifulsoup4** (>=4.12.0): Web scraping
+- **lxml** (>=4.9.0): XML and HTML processing
 
 ## 🎯 Usage Guide
 
 ### Getting Started
-1. **Launch the app** using `./run_dashboard.sh` or `streamlit run app.py`
+1. **Launch the app** using `./run_dashboard.sh` or `shiny run app.py`
 2. **Navigate** using the sidebar menu
 3. **Search for players** using their full name (e.g., "Aaron Judge")
 4. **Select years** to view historical data (2020-2025)
@@ -227,9 +228,40 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 - **pybaseball**: For providing comprehensive baseball data access
-- **Streamlit**: For the excellent web app framework
+- **Shiny for Python**: For the excellent web app framework
 - **Plotly**: For beautiful interactive visualizations
 - **MLB and FanGraphs**: For the underlying baseball data
+
+## 🚀 Deployment
+
+Want to share your dashboard with the world? Deploy it to [shinyapps.io](https://www.shinyapps.io/)!
+
+### Quick Deployment Steps:
+
+1. **Install rsconnect-python**:
+   ```bash
+   pip install rsconnect-python
+   ```
+
+2. **Create a shinyapps.io account** (free tier available)
+
+3. **Get your deployment token** from shinyapps.io account settings
+
+4. **Configure rsconnect**:
+   ```bash
+   rsconnect add --account YOUR_ACCOUNT --name NAME --token TOKEN --secret SECRET
+   ```
+
+5. **Deploy your app**:
+   ```bash
+   rsconnect deploy shiny . --name baseball-dashboard --title "Baseball Stats Dashboard"
+   ```
+
+6. **Share your app**: `https://YOUR_ACCOUNT.shinyapps.io/baseball-dashboard/`
+
+For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md).
+
+---
 
 ## 📞 Support
 
@@ -237,7 +269,7 @@ If you encounter any issues or have questions:
 1. Check the troubleshooting section above
 2. Review the [pybaseball documentation](https://github.com/jldbc/pybaseball)
 3. Open an issue in the repository
-4. Check [Streamlit's documentation](https://docs.streamlit.io/) for UI-related questions
+4. Check [Shiny for Python documentation](https://shiny.posit.co/py/) for UI-related questions
 
 ## 🌟 Star History
 
@@ -247,4 +279,4 @@ If you encounter any issues or have questions:
 
 **Happy Baseball Analytics! ⚾📊**
 
-*Built with ❤️ using Streamlit and pybaseball*
+*Built with ❤️ using Shiny for Python and pybaseball*
