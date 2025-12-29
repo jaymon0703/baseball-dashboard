@@ -312,28 +312,18 @@ Your browser should open automatically! If not, go to `http://localhost:8000`
 
 ---
 
-## Making It Look Professional
+## Professional Styling (Already Included!)
 
-The dashboard we've built is functional, but you can make it look amazing with some CSS styling. Add this to your UI:
+The code example above already includes professional styling! Notice the `ui.tags.head()` section at the top of `app_ui`? That's where we add:
 
-```python
-ui.tags.head(
-    ui.tags.link(rel="stylesheet", 
-                href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"),
-    ui.tags.style("""
-        * {
-            font-family: 'Inter', sans-serif;
-        }
-        .metric-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-    """)
-)
-```
+- **Custom fonts** (Inter from Google Fonts) for a modern, clean look
+- **Gradient backgrounds** for visual appeal
+- **Styled metric cards** with shadows and rounded corners
+- **Professional color scheme** with smooth transitions
+
+The styling is integrated directly into the UI definition, so when you run the app, it will look polished right away. If you want to customize the colors, fonts, or styles, you can modify the CSS inside the `ui.tags.style()` section.
+
+**Note:** The complete code example with all styling is available in the [GitHub Gist](your-gist-url) - just copy and paste to get the full professional look!
 
 ---
 
